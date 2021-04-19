@@ -22,7 +22,7 @@ const submit = document.getElementById("submit");
 const inputPin = document.getElementById("input-pin").value;
 submit.addEventListener("click", function(){
     
-    if(document.getElementById("display").value == document.getElementById("input-pin").value){
+    if(document.getElementById("display").value == document.getElementById("input-pin").value && document.getElementById("display").value !== ""){
         document.getElementById("right").style.display = "block";
         document.getElementById("wrong").style.display= "none";
     }
