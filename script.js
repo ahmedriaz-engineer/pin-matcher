@@ -31,4 +31,5 @@ submit.addEventListener("click", function(){
         document.getElementById("right").style.display = "none";
     }
     document.getElementById("input-pin").value = "";
+    document.getElementById("display").value = "";
 })
